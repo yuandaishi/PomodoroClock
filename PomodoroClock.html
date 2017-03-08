@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>这是一个假的番茄钟</title>
+		<script src="PomodoroClock.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			a{
+				text-decoration: none;
+				color: greenyellow;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 style="text-align: center;font-size: 40px;margin: 15px;">这是一个假的番茄钟</h1>
+		<h2 style="text-align: center;font-size: 16px;margin: 15px;">点击页面，触发或者停止</h2>
+	</body>
+	<script type="text/javascript">
+		var PomodoroClock=new PomodoroClock({
+				borderColor:"purple",//圆的颜色
+				sessionLength:1,//默认倒计时时长
+				breakLenght:1
+		});
+	</script>
+</html>
